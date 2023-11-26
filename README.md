@@ -1,4 +1,4 @@
-# Market Basket Analysis with Apriori Algorithm
+# Market Basket Analysis Project
 
 ## Overview
 This repository contains a Python script for performing Exploratory Data Analysis and Market Basket Analysis using the Apriori algorithm. The analysis is applied to a grocery sales dataset to  extract valuable insights from transaction data and discover associations between different products for the purpose of business optimization.
