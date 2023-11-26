@@ -3,8 +3,8 @@
 ## Overview
 This repository contains a Python script for performing Exploratory Data Analysis and Market Basket Analysis using the Apriori algorithm. The analysis is applied to a grocery sales dataset to  extract valuable insights from transaction data and discover associations between different products for the purpose of business optimization.
 
-## Code Structure
 
+## Code Structure
 * Data Loading and Cleaning:
   - Load the grocery sales data and perform initial data cleaning.
   - Convert 'Member_number' to a string and 'Date' to datetime format.
@@ -30,16 +30,22 @@ This repository contains a Python script for performing Exploratory Data Analysi
 * Positive Association Visualization:
   - Explore pairs with positive Zhang's metric to highlight positive associations.
 
-## Visualization
-* Utilize charts for clear visualization of data
-* Utilize heatmaps for clear and intuitive visualization of product associations.
-* Explore positive associations to understand which products complement each other.
 
-## Insights
-* Use Zhang's metric for a comprehensive evaluation of association rules.
-* Interpret negative and positive values to understand anti-associations and strong positive relationships.
+## Dataset
+This analysis was done on  a grocery sales dataset, containing transaction data on items purchased by customers. The csv file - Market Basket Analysis - Groceries_dataset - is included in this repository.
 
-## Future Work
-* Experiment with interactive visualizations to enhance user exploration.
-* Tune parameters for the Apriori algorithm to observe the impact on results.
-* Conduct further data exploration for deeper insights into customer behavior.
+
+## Analysis
+The Jupyter Notebook file Market_Basket_Analysis.ipynb contains a detailed analysis, including data processing steps, Exploratory Data Analysis, Market Basket Analysis using the Apriori algorithm, visualizations, and insights and recomendations.
+
+
+## How to use
+1. Clone the repository.
+2. Open the Jupyter Notebook Market_Basket.ipynb to view the analysis.
+3. Customize the analysis for your own dataset if needed.
+
+
+## Dependencies
+The analysis is done using Python and popular libraries like pandas, matplotlib, seaborn, and mlxtend. Make sure to install these dependencies using the following:
+
+pip install pandas matplotlib seaborn mlxtend
