@@ -1,13 +1,16 @@
 # Market Basket Analysis with Apriori Algorithm
 
 ## Overview
-This repository contains a Python script for performing Market Basket Analysis using the Apriori algorithm. The analysis is applied to a grocery sales dataset to discover associations between different products.
+This repository contains a Python script for performing Exploratory Data Analysis and Market Basket Analysis using the Apriori algorithm. The analysis is applied to a grocery sales dataset to  extract valuable insights from transaction data and discover associations between different products for the purpose of business optimization.
 
 ## Code Structure
 
 * Data Loading and Cleaning:
   - Load the grocery sales data and perform initial data cleaning.
   - Convert 'Member_number' to a string and 'Date' to datetime format.
+
+* Exploratory Data Analysis:
+  - Identify trends and patterns in customer purchases.
 
 * Unique Transactions:
   - Create a 'uniqueTransaction' column to group items purchased per customer per day.
@@ -28,6 +31,7 @@ This repository contains a Python script for performing Market Basket Analysis u
   - Explore pairs with positive Zhang's metric to highlight positive associations.
 
 ## Visualization
+* Utilize charts for clear visualization of data
 * Utilize heatmaps for clear and intuitive visualization of product associations.
 * Explore positive associations to understand which products complement each other.
 
