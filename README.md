@@ -36,12 +36,12 @@ This analysis was done on  a grocery sales dataset, containing transaction data 
 
 
 ## Analysis
-The Jupyter Notebook file [Market_Basket_Analysis.ipynb] (Market_Basket_Analysis.ipynb) contains a detailed analysis, including data processing steps, Exploratory Data Analysis, Market Basket Analysis using the Apriori algorithm, visualizations, and insights and recomendations.
+The Jupyter Notebook file [Market_Basket_Analysis.ipynb](Market_Basket_Analysis.ipynb) contains a detailed analysis, including data processing steps, Exploratory Data Analysis, Market Basket Analysis using the Apriori algorithm, visualizations, and insights and recomendations.
 
 
 ## How to use
 1. Clone the repository.
-2. Open the Jupyter Notebook [Market_Basket_Analysis.ipynb] (./main/Market_Basket_Analysis.ipynb) to view the analysis.
+2. Open the Jupyter Notebook [Market_Basket_Analysis.ipynb](./main/Market_Basket_Analysis.ipynb) to view the analysis.
 3. Customize the analysis for your own dataset if needed.
 
 
